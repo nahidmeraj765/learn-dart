@@ -14,9 +14,7 @@ class Car {
 
 // The main function – program execution starts here
 void main() {
-  Car myCar = Car(name: "Togg T10X", brand: "Togg", year: 2023); // Creating an instance of the Car class
-
-  print(myCar.brand); // accessing properties from class
+  Car myCar = Car(name: "Togg T10X", brand: "Togg", year: 2023); // Creating a Car object with name, brand, and year using a constructor
 
   myCar.displayInfo(); // Calling the method to display car information
 }

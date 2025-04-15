@@ -4,8 +4,6 @@ class Car {
   String? brand;
   int? year;
 
-  Car({required this.name, required this.brand, required this.year}); // constructor
-
   void displayInfo() {
     // Method to display car information
     print("Car Details: $name, $brand, $year");
@@ -14,7 +12,12 @@ class Car {
 
 // The main function – program execution starts here
 void main() {
-  Car myCar = Car(name: "Togg T10X", brand: "Togg", year: 2023); // Creating an instance of the Car class
+  Car myCar = Car(); // Creating an instance of the Car class
+
+  // Setting the properties of the car
+  myCar.name = "Togg T10X";
+  myCar.brand = "Togg";
+  myCar.year = 2023;
 
   print(myCar.brand); // accessing properties from class
 
