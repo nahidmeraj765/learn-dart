@@ -1,4 +1,4 @@
-main() {
+void main() {
   var x = 29;
   int a = 29;
   double b = 29.29;

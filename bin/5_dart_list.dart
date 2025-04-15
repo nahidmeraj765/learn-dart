@@ -1,4 +1,4 @@
-main() {
+void main() {
   List<int> numbers = [1, 2, 3, 4]; // [1,2,3,4]
   print(numbers.length); // will print list size -> 4
   print(numbers.isNotEmpty); // true

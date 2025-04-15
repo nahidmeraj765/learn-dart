@@ -1,4 +1,4 @@
-main() {
+void main() {
   var name = "Dart!";
   print("Hello $name"); // Hello Dart!
 
