@@ -4,7 +4,7 @@ class Car {
   String? brand;
   int? year;
 
-  Car({required this.name, required this.brand, required this.year}); // constructor
+  Car({required this.name, required this.brand, required this.year}); // parametrized constructor
 
   void displayInfo() {
     // Method to display car information
